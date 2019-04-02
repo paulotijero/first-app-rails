@@ -14,8 +14,8 @@
   <tbody>
     <% @distributions.each do |distribution| %>
       <tr>
-        <td><%= distribution.film %></td>
-        <td><%= distribution.actor %></td>
+        <td><%= distribution.film.title %></td>
+        <td><%= distribution.actor.name %></td>
         <td><%= link_to 'Show', distribution %></td>
         <td><%= link_to 'Edit', edit_distribution_path(distribution) %></td>
         <td><%= link_to 'Destroy', distribution, method: :delete, data: { confirm: 'Are you sure?' } %></td>

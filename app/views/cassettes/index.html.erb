@@ -14,7 +14,7 @@
   <tbody>
     <% @cassettes.each do |cassette| %>
       <tr>
-        <td><%= cassette.film %></td>
+        <td><%= cassette.film.title %></td>
         <td><%= cassette.format %></td>
         <td><%= link_to 'Show', cassette %></td>
         <td><%= link_to 'Edit', edit_cassette_path(cassette) %></td>

@@ -16,8 +16,8 @@
   <tbody>
     <% @rentals.each do |rental| %>
       <tr>
-        <td><%= rental.cassette %></td>
-        <td><%= rental.member %></td>
+        <td><%= rental.cassette.id %></td>
+        <td><%= rental.member.name %></td>
         <td><%= rental.rental_date %></td>
         <td><%= rental.return_date %></td>
         <td><%= link_to 'Show', rental %></td>
