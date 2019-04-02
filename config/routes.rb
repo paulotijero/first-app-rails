@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'rentals#index'
   resources :rentals
   resources :distributions
   resources :cassettes
