@@ -1,3 +1,3 @@
 class Actor < ApplicationRecord
-  hass_many :distributions
+  has_many :distributions
 end
