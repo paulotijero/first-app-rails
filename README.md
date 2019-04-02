@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The migrate is based on the E/R that is on the route.
 
-Things you may want to cover:
+```
+app/assets/images/DB_Movie.png
+```
 
-* Ruby version
+Things you want to know:
 
-* System dependencies
+- Database creation
 
-* Configuration
+```
+$ rake db:migrate
+```
 
-* Database creation
+- Run server
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails server
+```
